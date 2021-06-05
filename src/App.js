@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ function App() {
       <Route
         path="/"
         exact
-        render={(props) => (
+        render={() => (
           <div className="App">
             <Header />
             <h1>BMI Calculator !</h1>
@@ -32,7 +32,7 @@ function App() {
       <Route
         path="/info"
         exact
-        render={(props) => (
+        render={() => (
           <div>
             <Header />
             <Info />
