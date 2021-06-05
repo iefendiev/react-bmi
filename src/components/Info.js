@@ -16,7 +16,7 @@ const Info = () => {
         individuals with abdominal obesity, short stature, or unusually high
         muscle mass.
       </p>
-      <img src={BMI} />
+      <img src={BMI} alt="BMI" />
     </div>
   );
 };
